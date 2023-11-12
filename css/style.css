@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ol,ul{
+
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,span,div{
+
+    padding: 0;
+    margin: 0;
+}
+/*banner part css start*/
+
+#banner {
+    background: url(../images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    
+}
+
+
+.navbar-nav .nav-item .nav-link{
+
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.banner_main_content{
+    margin-top: 70px;
+}
+
+.banner_main_image_content{
+    float: right;
+    margin-bottom: 105px;
+}
+
+.banner_main_text_content{
+    margin-top: 70px;
+}
+
+
+.banner_header{
+    padding-top: 40px;
+}
+.banner_main_text_content h4{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.banner_main_text_content h5{
+ margin-top: 24px;
+ font-size: 20px;
+ font-weight: normal;
+}
+
+.banner_main_text_content p{
+    margin-top: 24px;
+}
+
+.banner_main_text_content_icon ul {
+    list-style: none;
+    padding: 0;
+}
+
+.banner_main_text_content_icon ul li {
+    float: left;
+    margin-right: 35px; 
+}
+
+.banner_main_text_content_icon ul li a {
+    color: black;
+    font-size: 42px;
+}
+
+.banner_main_text_content_icon {
+    margin-top: 24px;
+}
+
+
+
+/*banner part css end*/
+
+
+/*about part css start*/
+
+.common_head{
+
+
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.about_text{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 95px;
+}
+
+
+.about_text_icon ul li a{
+   color: black;
+   font-size: 50px;
+   
+   
+}
+
+.about_text_icon ul{
+    padding: 0;
+}
+
+.about_text_text h4{
+
+    margin-bottom: 18px;
+}
+
+
+/*about part css end*/
+
+/*footer css start*/
+
+footer{
+    margin-top: 165px;
+    background-color: #010101;
+}
+
+.footer_common_head h4{
+    color: #fcdb00;
+}
+.footer_text p{
+    color: #676767;
+}
+
+.footer_form{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Apply styles to the form container */
+.footer_form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the input box */
+.footer_form input {
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    outline: none;
+}
+
+/* Style the submit button */
+.footer_form button {
+    padding: 10px 15px;
+    background-color: #fcdb00; /* Change the color as needed */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 10%;
+    text-transform: uppercase;
+}
+
+.footer_icon{
+    margin-bottom: 130px;
+}
+
+.footer_icon ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Adjust as needed */
+}
+
+.footer_icon li {
+    margin: 0 10px;
+    padding: 0;
+}
+
+.footer_icon a {
+    display: inline-block;
+    padding: 5px; /* Adjust padding as needed */
+    text-decoration: none;
+    color: #fff; /* Adjust text color as needed */
+    background-color: #fcdb00; /* Replace with your desired background color */
+    border-radius: 5px;
+    font-size: 30px;
+    color: black; /* Adjust border-radius for the rectangle shape */
+}
+
+
+
+.footer_item_one p{
+    color: white;
+}
+
+.footer_item_two ul li {
+    color: white;
+}
+
+
+.footer_item_three ul li {
+    color: white;
+}
+
+.footer_item_four ul li {
+    color: white;
+}
+
+.footer_item_fifth ul li {
+    color: white;
+}
+
+/*footer css end*/
+
+/*01766839233*/
